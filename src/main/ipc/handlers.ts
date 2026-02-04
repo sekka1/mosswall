@@ -116,6 +116,14 @@ export function setupIpcHandlers(ipcMain: IpcMain): void {
                 content: chunk,
                 done,
                 messageId,
+                // Include sources with the final chunk
+                ...(done && relevantDocs.length > 0 ? {
+                  sources: relevantDocs.map(d => ({
+                    path: d.path,
+                    title: d.title,
+                    snippet: d.snippet,
+                  })),
+                } : {}),
               });
             }
           }

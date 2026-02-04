@@ -194,11 +194,19 @@ body {
 .message-sources {
   font-size: 12px;
   color: var(--text-secondary);
+  margin-top: 12px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 8px;
 }
 
 .message-sources summary {
   cursor: pointer;
   padding: 4px 0;
+  user-select: none;
+}
+
+.message-sources summary:hover {
+  color: var(--text-primary);
 }
 
 .message-sources ul {
@@ -207,10 +215,40 @@ body {
 }
 
 .message-sources li {
-  padding: 4px 8px;
+  padding: 8px 12px;
   background: var(--bg-primary);
   border-radius: 4px;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+  border-left: 3px solid var(--accent-secondary);
+}
+
+.message-sources .source-link {
+  color: var(--accent-primary);
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.message-sources .source-link:hover {
+  text-decoration: underline;
+  color: #ff6b81;
+}
+
+.message-sources .source-path {
+  color: var(--text-secondary);
+  font-size: 11px;
+}
+
+.message-sources .source-snippet {
+  margin-top: 4px;
+  padding: 6px 8px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 /* Typing Indicator */

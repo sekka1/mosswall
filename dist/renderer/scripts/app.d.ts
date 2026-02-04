@@ -17,6 +17,11 @@ interface StreamChunk {
     done: boolean;
     messageId: string;
     error?: string;
+    sources?: Array<{
+        path: string;
+        title: string;
+        snippet?: string;
+    }>;
 }
 declare class AssistantApp {
     private messagesContainer;

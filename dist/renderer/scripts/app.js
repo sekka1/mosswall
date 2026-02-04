@@ -63,6 +63,14 @@ class AssistantApp {
                         const content = textElement.textContent ?? '';
                         textElement.innerHTML = this.formatMarkdown(content);
                         this.removeTypingIndicator(this.currentStreamingMessage);
+                        // Add sources if available
+                        if (chunk.sources && chunk.sources.length > 0) {
+                            const contentDiv = this.currentStreamingMessage.querySelector('.message-content');
+                            if (contentDiv) {
+                                const sourcesElement = this.createSourcesElement(chunk.sources);
+                                contentDiv.appendChild(sourcesElement);
+                            }
+                        }
                         this.isStreaming = false;
                         this.currentStreamingMessage = null;
                         this.enableInput();
@@ -158,7 +166,37 @@ class AssistantApp {
         const list = document.createElement('ul');
         for (const source of sources) {
             const item = document.createElement('li');
-            item.textContent = `${source.title} (${source.path})`;
+            // Create clickable link to the source file
+            const link = document.createElement('a');
+            link.href = '#';
+            link.className = 'source-link';
+            link.textContent = source.title;
+            link.title = `Open ${source.path}`;
+            link.dataset.path = source.path;
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                // Copy path to clipboard as a fallback action
+                navigator.clipboard.writeText(`data/${source.path}`);
+                // Show brief feedback
+                const originalText = link.textContent;
+                link.textContent = '✓ Path copied!';
+                setTimeout(() => {
+                    link.textContent = originalText;
+                }, 1500);
+            });
+            item.appendChild(link);
+            // Add path in parentheses
+            const pathSpan = document.createElement('span');
+            pathSpan.className = 'source-path';
+            pathSpan.textContent = ` (${source.path})`;
+            item.appendChild(pathSpan);
+            // Add snippet if available
+            if (source.snippet) {
+                const snippetDiv = document.createElement('div');
+                snippetDiv.className = 'source-snippet';
+                snippetDiv.textContent = source.snippet;
+                item.appendChild(snippetDiv);
+            }
             list.appendChild(item);
         }
         details.appendChild(list);

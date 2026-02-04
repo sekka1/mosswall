@@ -114,8 +114,22 @@ When a user asks a question, the app follows this process:
 - Find relevant documents like `data/maintenance/watering-moss-guide.md`
 - Include that content as context for Copilot
 - Return an answer that incorporates the specific watering schedules and tips from your knowledge base
+- **Display source attribution** showing which documents were referenced
 
 This means all species profiles, maintenance guides, and glossary terms in `/data` are actively used to provide accurate, project-specific answers.
+
+### Does the app show where answers come from?
+
+**Yes!** Every response includes source attribution in a collapsible "📚 Sources referenced" section. This shows:
+
+- **Document title** — Clickable link (copies the file path to clipboard)
+- **File path** — Location in the `/data` directory
+- **Snippet** — Relevant excerpt that was used as context
+
+This transparency helps users:
+- Verify information accuracy
+- Find more detailed information in the source documents
+- Understand which knowledge base content is being used
 
 ---
 
