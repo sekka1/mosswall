@@ -66,11 +66,65 @@ terms:
     definition: "An enclosed or semi-enclosed glass container used to grow plants, including moss. The enclosure helps maintain humidity levels."
     related: ["Humidity", "Live Moss"]
 
+  # Life Cycle & Reproduction Terms
+  - term: "Gametophyte"
+    definition: "The haploid (single chromosome set), green leafy phase of moss that produces male and female gametes. This is the dominant, visible form of moss."
+    related: ["Sporophyte", "Antheridia", "Archegonia"]
+
+  - term: "Sporophyte"
+    definition: "The diploid (double chromosome set) phase of moss that produces spores. It appears as a thin stalk with a capsule, attached to and dependent on the gametophyte."
+    related: ["Gametophyte", "Sporangium", "Spore"]
+
+  - term: "Antheridia"
+    definition: "Male reproductive organs of moss that produce motile sperm. Found on the gametophyte during the sexual reproduction phase."
+    related: ["Archegonia", "Gametophyte", "Sexual Reproduction"]
+
+  - term: "Archegonia"
+    definition: "Female reproductive organs of moss that contain eggs. Fertilization occurs when sperm swim through water to reach the archegonia."
+    related: ["Antheridia", "Gametophyte", "Sexual Reproduction"]
+
+  - term: "Protonema"
+    definition: "The filamentous, algae-like growth stage that develops immediately after spore germination. It eventually develops into the mature gametophyte."
+    related: ["Spore", "Gametophyte", "Germination"]
+
+  - term: "Sporangium"
+    definition: "The capsule at the top of the sporophyte where spores are produced through meiosis. Contains the operculum (lid) and sometimes a peristome."
+    related: ["Sporophyte", "Spore", "Operculum", "Peristome"]
+
+  - term: "Spore"
+    definition: "A haploid reproductive cell released from the sporangium that can germinate into a new moss plant when conditions are favorable."
+    related: ["Sporangium", "Protonema", "Germination"]
+
+  - term: "Operculum"
+    definition: "The lid of a moss sporangium that opens to release mature spores."
+    related: ["Sporangium", "Peristome"]
+
+  - term: "Peristome"
+    definition: "Teeth-like structures around the opening of some moss sporangia that regulate the gradual release of spores for wider dispersal."
+    related: ["Sporangium", "Operculum", "Spore"]
+
+  - term: "Fragmentation"
+    definition: "A method of asexual reproduction where a piece of the moss gametophyte breaks off and grows into a new, genetically identical plant. Common propagation technique for gardeners."
+    related: ["Asexual Reproduction", "Gemmae", "Propagation"]
+
+  - term: "Gemmae"
+    definition: "Small, multicellular reproductive structures produced by some mosses that can detach and grow into new, genetically identical plants."
+    related: ["Fragmentation", "Asexual Reproduction", "Gemmae Cups"]
+
+  - term: "Dioicous"
+    definition: "Moss species where male (antheridia) and female (archegonia) reproductive organs are found on separate individual plants."
+    related: ["Monoicous", "Antheridia", "Archegonia"]
+
+  - term: "Monoicous"
+    definition: "Moss species where both male (antheridia) and female (archegonia) reproductive organs are found on the same individual plant."
+    related: ["Dioicous", "Antheridia", "Archegonia"]
+
 metadata:
   last_updated: "2026-02-03"
-  total_terms: 17
+  total_terms: 30
   categories:
     - "Moss Types"
     - "Care Terms"
     - "Equipment"
     - "Scientific Terms"
+    - "Life Cycle & Reproduction"
