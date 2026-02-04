@@ -98,6 +98,27 @@ npm start
 - [AGENTS.md](AGENTS.md) — Guidelines for how the AI agent uses the knowledge base and responds to queries
 - [DEVELOPMENT.md](DEVELOPMENT.md) — Development best practices, testing strategies, and security guidelines
 
+## FAQ
+
+### How does the app use the knowledge in the `/data` directory?
+
+When a user asks a question, the app follows this process:
+
+1. **User asks a question** — The message is sent to the IPC handler in the main process
+2. **Knowledge search** — `KnowledgeService.search()` searches all `.md` and `.yaml` files in `/data` for relevant content using keyword matching
+3. **Context building** — The top 3 most relevant documents are combined into context for the AI
+4. **Copilot query** — The user's question + local knowledge context is sent to GitHub Copilot
+5. **Response** — Copilot generates an answer informed by both its training AND the local knowledge base
+
+**Example:** If a user asks "How do I water my moss?", the app will:
+- Find relevant documents like `data/maintenance/watering-moss-guide.md`
+- Include that content as context for Copilot
+- Return an answer that incorporates the specific watering schedules and tips from your knowledge base
+
+This means all species profiles, maintenance guides, and glossary terms in `/data` are actively used to provide accurate, project-specific answers.
+
+---
+
 ## Contributing
 
 Contributions are welcome! You can help by:
