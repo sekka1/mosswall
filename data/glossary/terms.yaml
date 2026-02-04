@@ -119,12 +119,59 @@ terms:
     definition: "Moss species where both male (antheridia) and female (archegonia) reproductive organs are found on the same individual plant."
     related: ["Dioicous", "Antheridia", "Archegonia"]
 
+  # Pest & Disease Terms
+  - term: "Neem Oil"
+    definition: "A natural pesticide derived from the neem tree, safe to use on moss for controlling spider mites and other small insects without harming the moss."
+    related: ["Spider Mites", "Natural Pest Control"]
+
+  - term: "Spider Mites"
+    definition: "Tiny arachnids that can infest moss, recognized by fine webbing and a dulling of moss color. Controlled with neem oil or introducing ladybugs."
+    related: ["Neem Oil", "Natural Pest Control"]
+
+  - term: "Natural Fungicide"
+    definition: "Organic treatments for fungal diseases on moss, including diluted apple cider vinegar, baking soda solution, or diluted hydrogen peroxide."
+    related: ["Fungal Disease", "Mold"]
+
+  - term: "Fungal Disease"
+    definition: "Infection in moss caused by fungi, appearing as white or brown fuzzy growth. Occurs in overly damp conditions with poor air circulation."
+    related: ["Natural Fungicide", "Mold", "Air Circulation"]
+
+  - term: "Shade Netting"
+    definition: "A mesh fabric used to protect moss from excessive direct sunlight, especially during hot summer months. Reduces light intensity while allowing airflow."
+    related: ["Environmental Stress", "Browning"]
+
+  - term: "Environmental Stress"
+    definition: "Conditions that cause moss to struggle, including too much sunlight, insufficient water, extreme temperatures, air pollution, or poor soil conditions."
+    related: ["Browning", "Dormancy", "Shade Netting"]
+
+  - term: "Browning"
+    definition: "Discoloration of moss from green to brown, often indicating dormancy due to environmental stress. Usually reversible with proper care adjustments."
+    related: ["Dormancy", "Environmental Stress", "Revival"]
+
+  - term: "Revival"
+    definition: "The process of bringing dormant or stressed moss back to healthy growth through proper watering, shade, and care."
+    related: ["Dormancy", "Browning", "Rehydration"]
+
+  - term: "Air Circulation"
+    definition: "The movement of air around moss plants. Good airflow prevents fungal diseases and mold, but too much wind can dry out moss."
+    related: ["Fungal Disease", "Mold"]
+
+  - term: "Geotextile"
+    definition: "A permeable fabric used as a weed barrier under moss. Prevents weed growth while allowing moisture through for the moss above."
+    related: ["Weed Control", "Substrate"]
+
+  - term: "pH Level"
+    definition: "A measure of acidity or alkalinity. Moss prefers slightly acidic conditions with a pH between 5.0 and 5.5."
+    related: ["Soil Conditions", "Growing Conditions"]
+
 metadata:
   last_updated: "2026-02-03"
-  total_terms: 30
+  total_terms: 41
   categories:
     - "Moss Types"
     - "Care Terms"
     - "Equipment"
     - "Scientific Terms"
     - "Life Cycle & Reproduction"
+    - "Pests & Diseases"
+    - "Environmental Factors"

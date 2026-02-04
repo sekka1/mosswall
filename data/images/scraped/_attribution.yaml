@@ -61,3 +61,38 @@ images:
     attribution_text: "Image from mossandstonegardens.com"
     downloaded_at: null
     status: "pending-lazy-load"
+
+  # Images from https://mossandstonegardens.com/blog/how-to-identify-and-manage-common-moss-issues/
+  # Note: These images use lazy-loading and require JavaScript to resolve actual URLs
+  - filename: "pending-slug-on-moss.jpg"
+    source_page: "https://mossandstonegardens.com/blog/how-to-identify-and-manage-common-moss-issues/"
+    source_page_title: "How To Identify And Manage Common Moss Issues"
+    original_url: null  # Lazy-loaded, requires JavaScript
+    alt_text: "A slug on moss"
+    caption: "A slug on moss"
+    detected_license: null
+    attribution_text: "Image from mossandstonegardens.com"
+    downloaded_at: null
+    status: "pending-lazy-load"
+
+  - filename: "pending-caterpillar-on-moss.jpg"
+    source_page: "https://mossandstonegardens.com/blog/how-to-identify-and-manage-common-moss-issues/"
+    source_page_title: "How To Identify And Manage Common Moss Issues"
+    original_url: null
+    alt_text: "Caterpillar on moss"
+    caption: "Caterpillar on moss"
+    detected_license: null
+    attribution_text: "Image from mossandstonegardens.com"
+    downloaded_at: null
+    status: "pending-lazy-load"
+
+  - filename: "pending-hand-pulling-weeds-moss.jpg"
+    source_page: "https://mossandstonegardens.com/blog/how-to-identify-and-manage-common-moss-issues/"
+    source_page_title: "How To Identify And Manage Common Moss Issues"
+    original_url: null
+    alt_text: "Hand pulling weeds from moss"
+    caption: "Hand-pulling weeds from moss"
+    detected_license: null
+    attribution_text: "Image from mossandstonegardens.com"
+    downloaded_at: null
+    status: "pending-lazy-load"
