@@ -1,0 +1,95 @@
+# Fern Moss Species Specification
+name: "Fern Moss"
+scientific_name: "Thuidium delicatulum"
+common_names:
+  - "Fern Moss"
+  - "Delicate Fern Moss"
+  - "Common Fern Moss"
+family: "Thuidiaceae"
+genus: "Thuidium"
+
+taxonomy:
+  kingdom: "Plantae"
+  division: "Bryophyta"
+  class: "Bryopsida"
+  order: "Hypnales"
+  family: "Thuidiaceae"
+  genus: "Thuidium"
+  species: "Thuidium delicatulum"
+
+characteristics:
+  growth_form: "Pleurocarpous (creeping/mat-forming)"
+  height: "2-5 cm"
+  color: "Vibrant green to yellow-green"
+  texture: "Fine, feathery, delicate fronds"
+  leaves: "Triangular, finely divided (fern-like appearance)"
+  branching: "Bi- to tri-pinnate, highly elaborate"
+
+ideal_conditions:
+  light: "Partial shade to full shade"
+  moisture: "Consistently moist"
+  substrate: "Humus-rich soil, rotting logs, rocks"
+  humidity: "60-80%"
+  temperature: "Cool to moderate"
+
+habitat:
+  primary: "Shaded forest floors with rich organic matter"
+  secondary: "Stream banks, moist rocks, rotting logs"
+  adaptations:
+    - "Intricate branching maximizes light capture in shade"
+    - "Excellent moisture absorption"
+    - "Thrives in humid microclimates"
+
+distribution:
+  range: "Eastern North America, Europe, East Asia"
+  regions:
+    - "Eastern United States"
+    - "Southeastern Canada"
+    - "Northern Europe"
+    - "East Asia"
+  climate_zones: "Temperate"
+
+ecological_importance:
+  - "Creates microhabitats for small invertebrates"
+  - "Contributes to forest floor decomposition"
+  - "Moisture retention in woodland ecosystems"
+  - "Soil protection from erosion"
+
+uses:
+  landscaping:
+    - "Woodland garden paths and trails"
+    - "Shaded rock gardens"
+    - "Around water features"
+    - "Under tree canopies"
+  applications:
+    - "Terrariums (excellent for humid setups)"
+    - "Living walls"
+    - "Fairy gardens"
+    - "Naturalistic landscape design"
+
+care_requirements:
+  watering: "Keep consistently moist; mist frequently"
+  maintenance: "Remove debris; avoid foot traffic"
+  establishment: "Prefers established, undisturbed locations"
+
+notes: |
+  Fern Moss is prized for its exceptionally delicate, fern-like appearance
+  created by intricate bi- to tri-pinnate branching. This fine structure
+  gives it an elegant, feathery texture that's highly valued in landscaping
+  and terrarium design. It requires more humidity and moisture than many
+  other mosses, making it ideal for naturally damp, shaded areas or enclosed
+  terrarium environments. The species name "delicatulum" refers to its
+  delicate, refined appearance.
+
+metadata:
+  last_updated: "2025-01-20"
+  sources:
+    - "https://mossandstonegardens.com/blog/the-science-of-fern-moss-delicate-fern-moss-thuidium-delicatulum/"
+    - "USDA Plants Database"
+  tags:
+    - "pleurocarpous"
+    - "shade-loving"
+    - "humidity-loving"
+    - "terrarium"
+    - "woodland"
+    - "decorative"

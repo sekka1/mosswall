@@ -1,0 +1,94 @@
+# Carpet Moss Species Specification
+name: "Carpet Moss"
+scientific_name: "Hypnum cupressiforme"
+common_names:
+  - "Carpet Moss"
+  - "Cypress-leaved Plait-moss"
+  - "Hypnum Moss"
+family: "Hypnaceae"
+genus: "Hypnum"
+
+taxonomy:
+  kingdom: "Plantae"
+  division: "Bryophyta"
+  class: "Bryopsida"
+  order: "Hypnales"
+  family: "Hypnaceae"
+  genus: "Hypnum"
+  species: "Hypnum cupressiforme"
+
+characteristics:
+  growth_form: "Pleurocarpous (creeping/mat-forming)"
+  height: "1-4 cm"
+  color: "Yellow-green to deep green"
+  texture: "Soft, feathery fronds forming dense mats"
+  leaves: "Small, curved, overlapping (cypress-like arrangement)"
+  branching: "Irregularly pinnate, feather-like"
+
+ideal_conditions:
+  light: "Partial shade to full shade"
+  moisture: "Moderate to high"
+  substrate: "Rocks, tree bark, logs, soil"
+  humidity: "40-70%"
+  temperature: "Cool to moderate (prefers temperate climates)"
+
+habitat:
+  primary: "Shaded forest floors"
+  secondary: "Tree bark, rocks, logs, old walls"
+  adaptations:
+    - "Highly versatile substrate tolerance"
+    - "Forms dense protective mats"
+    - "Excellent moisture retention"
+
+distribution:
+  range: "Widespread across Northern Hemisphere"
+  regions:
+    - "North America (widespread)"
+    - "Europe (very common)"
+    - "Asia"
+    - "Parts of Africa"
+  climate_zones: "Temperate to boreal"
+
+ecological_importance:
+  - "Erosion prevention through mat formation"
+  - "Microhabitat for invertebrates"
+  - "Moisture retention in forest ecosystems"
+  - "Nutrient cycling contribution"
+
+uses:
+  landscaping:
+    - "Shaded groundcover"
+    - "Rock garden accents"
+    - "Woodland garden paths"
+    - "Living walls and vertical gardens"
+  applications:
+    - "Terrarium design"
+    - "Fairy gardens"
+    - "Bonsai accents"
+    - "Floral arrangements"
+
+care_requirements:
+  watering: "Regular misting; keep consistently moist"
+  maintenance: "Low; occasional debris removal"
+  establishment: "Spreads readily via fragmentation"
+
+notes: |
+  Carpet Moss (Hypnum cupressiforme) is one of the most widespread and 
+  adaptable moss species in the world. Its common name "cypress-leaved" 
+  refers to the distinctive curved, overlapping leaf arrangement that 
+  resembles cypress foliage. This moss forms beautiful, soft carpet-like 
+  mats that make it popular for landscaping and decorative applications.
+  It's particularly valued for its ability to grow on various substrates
+  including rocks, bark, and soil.
+
+metadata:
+  last_updated: "2025-01-20"
+  sources:
+    - "https://mossandstonegardens.com/blog/the-science-of-carpet-moss-cypress-leaved-moss-hypnum-moss-hypnum-cupressiforme/"
+    - "Global Biodiversity Information Facility"
+  tags:
+    - "pleurocarpous"
+    - "shade-loving"
+    - "versatile"
+    - "groundcover"
+    - "terrarium"

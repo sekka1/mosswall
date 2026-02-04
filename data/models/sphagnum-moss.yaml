@@ -1,0 +1,111 @@
+# Sphagnum Moss Species Specification
+name: "Sphagnum Moss"
+scientific_name: "Sphagnum platyphyllum"
+common_names:
+  - "Sphagnum Moss"
+  - "Peat Moss"
+  - "Flat-leaved Peat Moss"
+  - "Broad-leaved Sphagnum"
+  - "Carpet Sphagnum"
+  - "Bog Moss"
+  - "Water-holding Moss"
+  - "Swamp Sphagnum"
+family: "Sphagnaceae"
+genus: "Sphagnum"
+
+taxonomy:
+  kingdom: "Plantae"
+  division: "Bryophyta"
+  class: "Sphagnopsida"
+  order: "Sphagnales"
+  family: "Sphagnaceae"
+  genus: "Sphagnum"
+  species: "Sphagnum platyphyllum"
+
+characteristics:
+  growth_form: "Mat-forming (unique sphagnoid growth)"
+  height: "Variable, forms continuous mats"
+  color: "Bright green to yellow-green"
+  texture: "Soft and spongy when wet; brittle when dry"
+  leaves: "Flat, broad leaves (platyphyllum = broad-leaved)"
+  branching: "Fan-like pattern with spreading branches"
+  water_capacity: "Holds up to 20 times its dry weight in water"
+
+ideal_conditions:
+  light: "Partial shade to full sun (in wet conditions)"
+  moisture: "Constantly wet to saturated"
+  substrate: "Acidic bogs, fens, wetland margins"
+  humidity: "Very high (80-100%)"
+  pH: "Acidic (pH 3.5-5.5)"
+  temperature: "Cool to cold"
+
+habitat:
+  primary: "Bogs and fens"
+  secondary: "Marshes, swamps, wetland edges"
+  adaptations:
+    - "Hyaline cells store enormous water quantities"
+    - "Creates acidic environment through cation exchange"
+    - "Survives nutrient-poor conditions"
+    - "Contributes to peat formation"
+
+distribution:
+  range: "Temperate and boreal Northern Hemisphere"
+  regions:
+    - "Northeastern United States"
+    - "Canada"
+    - "Pacific Northwest"
+    - "Scandinavia and British Isles"
+    - "Northern Russia"
+    - "Siberia"
+  climate_zones: "Boreal to temperate"
+
+ecological_importance:
+  - "Peatland formation (critical for carbon storage)"
+  - "Carbon sequestration (peatlands store ~30% of soil carbon)"
+  - "Natural water filtration"
+  - "Habitat for specialized bog species"
+  - "Climate regulation through carbon storage"
+
+uses:
+  landscaping:
+    - "Bog gardens"
+    - "Water feature edges"
+    - "Acid-loving plant beds"
+  horticultural:
+    - "Soil amendment for moisture retention"
+    - "Orchid potting medium"
+    - "Seed starting medium"
+    - "Carnivorous plant substrate"
+  other:
+    - "Terrariums (humidity-loving setups)"
+    - "Wound dressings (historical/antiseptic properties)"
+    - "Packing material for live plants"
+
+care_requirements:
+  watering: "Keep constantly wet; never allow to dry"
+  maintenance: "Use rainwater or distilled water (avoid lime)"
+  establishment: "Requires acidic, nutrient-poor, wet conditions"
+
+notes: |
+  Sphagnum moss is ecologically one of the most important plants on Earth.
+  It's responsible for forming peat bogs, which are massive carbon sinks
+  storing approximately 30% of the world's soil carbon despite covering
+  only 3% of land area. The remarkable water-holding capacity (up to 20x
+  its dry weight) comes from specialized hyaline cells that act as water
+  reservoirs. Sphagnum also creates acidic conditions through cation
+  exchange, which preserves organic matter and inhibits bacterial decay.
+  The species name "platyphyllum" refers to its distinctively flat, broad
+  leaves compared to other Sphagnum species.
+
+metadata:
+  last_updated: "2025-01-20"
+  sources:
+    - "https://mossandstonegardens.com/blog/the-science-of-sphagnum-moss-sphagnum-platyphyllum/"
+    - "USDA Plants Database"
+  tags:
+    - "peat-forming"
+    - "wetland"
+    - "water-holding"
+    - "acidic"
+    - "horticultural"
+    - "ecological-importance"

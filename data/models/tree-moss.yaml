@@ -1,0 +1,102 @@
+# Tree Moss Species Specification
+name: "Tree Moss"
+scientific_name: "Anomodon attenuatus"
+common_names:
+  - "Tree Moss"
+  - "Tree Apron Moss"
+  - "Tree Skirt Moss"
+  - "Poodle Moss"
+  - "Anomodon Moss"
+family: "Anomodontaceae"
+genus: "Anomodon"
+
+taxonomy:
+  kingdom: "Plantae"
+  division: "Bryophyta"
+  class: "Bryopsida"
+  order: "Leucodontales"
+  family: "Anomodontaceae"
+  genus: "Anomodon"
+  species: "Anomodon attenuatus"
+
+characteristics:
+  growth_form: "Pleurocarpous (creeping/mat-forming)"
+  height: "1-5 cm"
+  color: "Green to yellow-green"
+  texture: "Soft, pliable when moist; carpet-like"
+  leaves: "Elongated, mostly curved"
+  distinctive_feature: "Forms 'apron' or 'skirt' around tree bases"
+  branching: "Spreading shoots that attach to bark"
+
+ideal_conditions:
+  light: "Partial shade to full shade"
+  moisture: "Moderate; tolerates periodic drying"
+  substrate: "Tree bark (especially at base), rocks"
+  humidity: "50-80%"
+  temperature: "Cool to moderate"
+
+habitat:
+  primary: "Tree bases in temperate forests"
+  secondary: "Rocks, lower tree trunks, deciduous and conifer forests"
+  adaptations:
+    - "Strong holdfast system for bark attachment"
+    - "Tolerates variable moisture at tree bases"
+    - "Thrives in microhabitat shade beneath canopy"
+
+distribution:
+  range: "Northern Hemisphere (widespread)"
+  regions:
+    - "Eastern United States"
+    - "Canada (especially eastern)"
+    - "Scandinavia"
+    - "British Isles"
+    - "Central Europe"
+    - "Temperate Asia"
+  climate_zones: "Temperate to boreal"
+
+ecological_importance:
+  - "Supports biodiversity (microhabitat for invertebrates)"
+  - "Moisture regulation around tree bases"
+  - "Provides nesting material for small wildlife"
+  - "Contributes to forest floor decomposition"
+
+uses:
+  landscaping:
+    - "Around tree bases (natural appearance)"
+    - "Woodland garden accents"
+    - "Shade garden groundcover"
+    - "Rock gardens in shade"
+  applications:
+    - "Terrariums"
+    - "Living walls"
+    - "Naturalistic garden design"
+    - "Tree-themed displays"
+
+care_requirements:
+  watering: "Moderate; keep moist but not saturated"
+  maintenance: "Low; naturally adheres to substrate"
+  establishment: "Place at tree bases or on bark; allow to attach"
+
+notes: |
+  Tree Moss (Anomodon attenuatus) is named for its distinctive growth
+  pattern of forming "aprons" or "skirts" around the bases of trees.
+  The nickname "Poodle Moss" comes from its curly, textured appearance
+  that resembles poodle fur. This moss has evolved specialized holdfast
+  structures that allow it to cling firmly to tree bark. It creates a
+  beautiful natural effect in landscaping when allowed to grow around
+  tree trunks, mimicking its wild forest habitat. The moss thrives in
+  the stable microclimate found at tree bases where moisture and shade
+  conditions are consistent.
+
+metadata:
+  last_updated: "2025-01-20"
+  sources:
+    - "https://mossandstonegardens.com/blog/the-science-of-tree-moss-tree-apron-moss-tree-skirt-moss-poodle-moss-or-anomodon-moss/"
+    - "USDA Plants Database"
+  tags:
+    - "pleurocarpous"
+    - "tree-dwelling"
+    - "bark-growing"
+    - "shade-loving"
+    - "woodland"
+    - "decorative"

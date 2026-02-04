@@ -164,9 +164,103 @@ terms:
     definition: "A measure of acidity or alkalinity. Moss prefers slightly acidic conditions with a pH between 5.0 and 5.5."
     related: ["Soil Conditions", "Growing Conditions"]
 
+  # Species-Specific Terms
+  - term: "Bryum Moss"
+    definition: "Bryum caespiticium, also called 'Sun Moss'. One of the few moss species that tolerates direct sunlight. Forms dense cushions and thrives in urban environments including pavement cracks."
+    related: ["Acrocarpous Moss", "Sun-Tolerant"]
+
+  - term: "Carpet Moss"
+    definition: "Hypnum cupressiforme, also called 'Cypress-leaved Plait-moss'. A widespread pleurocarpous moss forming soft, feathery mats on rocks, bark, and soil. Named for cypress-like curved leaves."
+    related: ["Pleurocarpous Moss", "Sheet Moss"]
+
+  - term: "Fern Moss"
+    definition: "Thuidium delicatulum, a delicate pleurocarpous moss with intricate fern-like branching. Requires high humidity and consistent moisture. Popular for terrariums."
+    related: ["Pleurocarpous Moss", "Terrarium"]
+
+  - term: "Haircap Moss"
+    definition: "Polytrichum commune, one of the tallest moss species (up to 20cm). Has primitive internal conducting cells. Named for hairy calyptra covering spore capsules. Prefers acidic, wet conditions."
+    related: ["Acrocarpous Moss", "Calyptra", "Peat Bog"]
+
+  - term: "Tree Moss"
+    definition: "Anomodon attenuatus, also called 'Tree Apron Moss' or 'Poodle Moss'. Grows in apron-like patterns around tree bases. Has strong holdfast system for bark attachment."
+    related: ["Pleurocarpous Moss", "Holdfast"]
+
+  # Water & Moisture Terms
+  - term: "Hyaline Cells"
+    definition: "Large, dead water-storage cells found in Sphagnum moss that can hold up to 20 times the moss's dry weight in water. Surrounded by smaller living photosynthetic cells."
+    related: ["Sphagnum Moss", "Water Retention"]
+
+  - term: "Wicking"
+    definition: "The process by which moss draws moisture from adjacent water sources through capillary action. Can help or harm moss depending on conditions."
+    related: ["Water Retention", "Moisture Level"]
+
+  - term: "Acclimation"
+    definition: "The process of newly transplanted moss adjusting to its new environment including altitude, sunlight, water availability, wind, and substrate. Precedes establishment."
+    related: ["Establishment", "Transplanting"]
+
+  - term: "Establishment"
+    definition: "The phase after acclimation when transplanted moss has reattached its rhizoids to the new substrate and begun normal growth."
+    related: ["Acclimation", "Rhizoids", "Transplanting"]
+
+  - term: "Chloramine"
+    definition: "A chemical disinfectant used in some municipal water supplies that can harm moss growth if present in high concentrations. Can be reduced by aging tap water."
+    related: ["Water Quality", "Rainwater"]
+
+  # Growth Terms
+  - term: "Holdfast"
+    definition: "Specialized structures that allow moss to attach firmly to substrates like tree bark. Particularly developed in species like Tree Moss (Anomodon attenuatus)."
+    related: ["Rhizoids", "Tree Moss", "Substrate"]
+
+  - term: "Calyptra"
+    definition: "A protective hood covering the developing sporophyte capsule. In Haircap Moss, it is distinctively hairy, giving the moss its common name."
+    related: ["Sporophyte", "Sporangium", "Haircap Moss"]
+
+  # Disease Terms
+  - term: "Black Slime Mold"
+    definition: "A mold that causes moss to turn black, commonly found near ponds or in constantly wet conditions. Spreads via water and water plants."
+    related: ["Gray Mold", "Mold", "Overwatering"]
+
+  - term: "Gray Mold"
+    definition: "A fungal infection causing moss to blacken, especially in warm (above 75°F), consistently moist conditions. Common in terrariums with poor ventilation."
+    related: ["Black Slime Mold", "Fungal Disease", "Terrarium"]
+
+  # Ecological Terms
+  - term: "Peat"
+    definition: "Partially decomposed organic matter, primarily from Sphagnum moss, that accumulates in waterlogged, acidic wetland conditions. Important for carbon sequestration."
+    related: ["Sphagnum Moss", "Peatland", "Carbon Sequestration"]
+
+  - term: "Peatland"
+    definition: "Wetland ecosystem dominated by peat-forming plants, especially Sphagnum moss. Stores approximately 30% of global soil carbon despite covering only 3% of land."
+    related: ["Peat", "Sphagnum Moss", "Carbon Sequestration"]
+
+  - term: "Carbon Sequestration"
+    definition: "The process of capturing and storing atmospheric carbon dioxide. Peatlands formed by Sphagnum moss are among the world's most important carbon sinks."
+    related: ["Peat", "Peatland", "Ecological Importance"]
+
+  - term: "Bioindicator"
+    definition: "An organism whose presence, absence, or condition indicates environmental quality. Moss serves as a bioindicator for air quality and ecosystem health."
+    related: ["Environmental Stress", "Ecological Importance"]
+
+  - term: "Microhabitat"
+    definition: "A small-scale habitat within a larger ecosystem that provides specific conditions for certain organisms. Moss creates microhabitats for invertebrates and microorganisms."
+    related: ["Biodiversity", "Ecological Importance"]
+
+  # Taxonomy Terms
+  - term: "Bryopsida"
+    definition: "The largest class of mosses, including most common species like Sheet Moss, Mood Moss, and Carpet Moss. Characterized by typical moss appearance with leafy gametophytes."
+    related: ["Bryophyte", "Sphagnopsida", "Polytrichopsida"]
+
+  - term: "Sphagnopsida"
+    definition: "A class of mosses containing only Sphagnum species. Distinguished by unique water-holding hyaline cells and ability to acidify their environment."
+    related: ["Sphagnum Moss", "Bryopsida", "Hyaline Cells"]
+
+  - term: "Polytrichopsida"
+    definition: "A class of mosses including Haircap Moss (Polytrichum). Distinguished by having primitive internal water-conducting cells similar to vascular plants."
+    related: ["Haircap Moss", "Bryopsida"]
+
 metadata:
-  last_updated: "2026-02-03"
-  total_terms: 41
+  last_updated: "2025-01-20"
+  total_terms: 63
   categories:
     - "Moss Types"
     - "Care Terms"

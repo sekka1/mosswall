@@ -1,0 +1,96 @@
+# Mood Moss Species Specification
+name: "Mood Moss"
+scientific_name: "Dicranum scoparium"
+common_names:
+  - "Mood Moss"
+  - "Broom Moss"
+  - "Rock Cap Moss"
+  - "Windswept Moss"
+family: "Dicranaceae"
+genus: "Dicranum"
+
+taxonomy:
+  kingdom: "Plantae"
+  division: "Bryophyta"
+  class: "Bryopsida"
+  order: "Dicranales"
+  family: "Dicranaceae"
+  genus: "Dicranum"
+  species: "Dicranum scoparium"
+
+characteristics:
+  growth_form: "Acrocarpous (upright cushions)"
+  height: "3-10 cm"
+  color: "Deep green to yellow-green"
+  texture: "Thick, velvety, plush mats"
+  leaves: "Lance-shaped, curved/swept to one side (like wind-blown)"
+  distinctive_feature: "All leaves curve in the same direction"
+
+ideal_conditions:
+  light: "Partial shade to full shade"
+  moisture: "Moderate; tolerates some drying"
+  substrate: "Rocks, rotting logs, humus-rich soil"
+  humidity: "50-70%"
+  temperature: "Cool to moderate"
+
+habitat:
+  primary: "Humid, shaded forest floors"
+  secondary: "Rock surfaces, rotting logs, tree bases"
+  adaptations:
+    - "Drought tolerance through dormancy"
+    - "Curved leaves channel water to base"
+    - "Dense cushion form retains moisture"
+
+distribution:
+  range: "Widespread across Northern Hemisphere"
+  regions:
+    - "North America (common)"
+    - "Europe"
+    - "Asia"
+  climate_zones: "Temperate to boreal"
+
+ecological_importance:
+  - "Provides habitat for microinvertebrates"
+  - "Moisture retention in forest ecosystems"
+  - "Nutrient cycling on forest floor"
+  - "Erosion prevention on rocky slopes"
+
+uses:
+  landscaping:
+    - "Rock gardens and boulder accents"
+    - "Shaded woodland gardens"
+    - "Around tree bases"
+    - "Living walls (accent moss)"
+  applications:
+    - "Terrariums"
+    - "Floral arrangements"
+    - "Craft projects"
+    - "Bonsai landscapes"
+
+care_requirements:
+  watering: "Moderate; allow slight drying between watering"
+  maintenance: "Low; naturally forms tight cushions"
+  establishment: "Transplants well; place on suitable substrate"
+
+notes: |
+  Mood Moss (Dicranum scoparium) gets its common name from the way its
+  appearance changes with moisture levels - appearing lush and vibrant
+  green when moist, then taking on a more subdued, yellowish tone when
+  dry (reflecting the moss's "mood"). The name "broom moss" comes from
+  the distinctive curved leaves that all sweep in the same direction,
+  resembling a broom. This moss forms thick, velvety cushions that are
+  highly prized in landscaping for their soft texture and natural beauty.
+  It's particularly effective as an accent on rocks and boulders.
+
+metadata:
+  last_updated: "2025-01-20"
+  sources:
+    - "https://mossandstonegardens.com/blog/the-science-of-mood-moss-habitat-characteristics-life-cycle-more/"
+    - "USDA Plants Database"
+  tags:
+    - "acrocarpous"
+    - "cushion-forming"
+    - "rock-garden"
+    - "drought-tolerant"
+    - "decorative"
+    - "terrarium"

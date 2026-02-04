@@ -96,3 +96,60 @@ images:
     attribution_text: "Image from mossandstonegardens.com"
     downloaded_at: null
     status: "pending-lazy-load"
+
+  # Images from https://mossandstonegardens.com/blog/how-to-care-and-maintain-a-moss-lawn/
+  # Note: These images use lazy-loading and require JavaScript to resolve actual URLs
+  - filename: "pending-well-maintained-moss-lawn.jpg"
+    source_page: "https://mossandstonegardens.com/blog/how-to-care-and-maintain-a-moss-lawn/"
+    source_page_title: "How to Care and Maintain a Moss Lawn | The Ultimate Guide"
+    original_url: null
+    alt_text: "A well maintained moss lawn"
+    caption: "A well maintained moss lawn"
+    detected_license: null
+    attribution_text: "Image from mossandstonegardens.com"
+    downloaded_at: null
+    status: "pending-lazy-load"
+
+  - filename: "pending-leaves-on-moss-lawn.jpg"
+    source_page: "https://mossandstonegardens.com/blog/how-to-care-and-maintain-a-moss-lawn/"
+    source_page_title: "How to Care and Maintain a Moss Lawn | The Ultimate Guide"
+    original_url: null
+    alt_text: "Leaves on a moss lawn"
+    caption: "Remove dead leaves from the lawn"
+    detected_license: null
+    attribution_text: "Image from mossandstonegardens.com"
+    downloaded_at: null
+    status: "pending-lazy-load"
+
+  - filename: "pending-stepping-stones-moss-garden.jpg"
+    source_page: "https://mossandstonegardens.com/blog/how-to-care-and-maintain-a-moss-lawn/"
+    source_page_title: "How to Care and Maintain a Moss Lawn | The Ultimate Guide"
+    original_url: null
+    alt_text: "Stepping stones in a moss garden"
+    caption: "Stepping stones can protect the moss"
+    detected_license: null
+    attribution_text: "Image from mossandstonegardens.com"
+    downloaded_at: null
+    status: "pending-lazy-load"
+
+  - filename: "pending-moss-water-stream.jpg"
+    source_page: "https://mossandstonegardens.com/blog/how-to-care-and-maintain-a-moss-lawn/"
+    source_page_title: "How to Care and Maintain a Moss Lawn | The Ultimate Guide"
+    original_url: null
+    alt_text: "moss close to a water stream"
+    caption: "Mold can occur when moss grows close to a water source"
+    detected_license: null
+    attribution_text: "Image from mossandstonegardens.com"
+    downloaded_at: null
+    status: "pending-lazy-load"
+
+  - filename: "pending-collected-moss-fragments.jpg"
+    source_page: "https://mossandstonegardens.com/blog/how-to-care-and-maintain-a-moss-lawn/"
+    source_page_title: "How to Care and Maintain a Moss Lawn | The Ultimate Guide"
+    original_url: null
+    alt_text: "A hand with collected moss fragments"
+    caption: "Use collected moss fragments for regrowth"
+    detected_license: null
+    attribution_text: "Image from mossandstonegardens.com"
+    downloaded_at: null
+    status: "pending-lazy-load"

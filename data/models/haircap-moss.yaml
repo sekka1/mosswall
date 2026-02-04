@@ -1,0 +1,96 @@
+# Haircap Moss Species Specification
+name: "Haircap Moss"
+scientific_name: "Polytrichum commune"
+common_names:
+  - "Haircap Moss"
+  - "Common Haircap Moss"
+  - "Great Golden Maidenhair"
+  - "Star Moss"
+family: "Polytrichaceae"
+genus: "Polytrichum"
+
+taxonomy:
+  kingdom: "Plantae"
+  division: "Bryophyta"
+  class: "Polytrichopsida"
+  order: "Polytrichales"
+  family: "Polytrichaceae"
+  genus: "Polytrichum"
+  species: "Polytrichum commune"
+
+characteristics:
+  growth_form: "Acrocarpous (upright)"
+  height: "5-20 cm (one of the tallest moss species)"
+  color: "Dark green to blue-green"
+  texture: "Stiff, wiry stems with lance-shaped leaves"
+  leaves: "Lance-shaped, serrated edges, arranged in rosettes"
+  capsules: "Four-angled capsules covered with hairy calyptra"
+
+ideal_conditions:
+  light: "Open shade to partial sun"
+  moisture: "Moist to wet"
+  substrate: "Acidic soil, peat, sandy soil"
+  humidity: "High (60-90%)"
+  temperature: "Cool to cold (tolerates freezing)"
+
+habitat:
+  primary: "Moist forests, bogs, and wetland margins"
+  secondary: "Tundra, moorlands, stream banks"
+  adaptations:
+    - "Waxy cuticle for moisture retention"
+    - "Internal water-conducting cells (primitive vascular-like system)"
+    - "Cold and frost tolerance"
+
+distribution:
+  range: "Circumboreal - Northern Hemisphere"
+  regions:
+    - "North America (widespread)"
+    - "Europe"
+    - "Northern Asia"
+    - "Arctic and subarctic regions"
+  climate_zones: "Boreal to temperate, arctic-alpine"
+
+ecological_importance:
+  - "Peatland formation contribution"
+  - "Carbon sequestration in wetlands"
+  - "Erosion control on acidic soils"
+  - "Habitat for small invertebrates"
+
+uses:
+  landscaping:
+    - "Open shade groundcover"
+    - "Bog garden accents"
+    - "Naturalistic water feature borders"
+    - "Acidic soil areas"
+  applications:
+    - "Terrariums (tall accent moss)"
+    - "Educational displays"
+    - "Historic use: stuffing, insulation, lamp wicks"
+
+care_requirements:
+  watering: "Keep consistently moist to wet"
+  maintenance: "Prefers acidic conditions; avoid lime"
+  establishment: "Slow to establish; requires patience"
+
+notes: |
+  Haircap Moss (Polytrichum commune) is one of the tallest and most 
+  structurally complex mosses, sometimes reaching 20 cm in height. Unlike
+  most mosses, it has primitive internal conducting tissues similar to
+  vascular plants. The name "haircap" comes from the hairy calyptra 
+  (covering) that protects the spore capsule. The distinctive rosette
+  growth pattern and lance-shaped leaves make it easily identifiable.
+  This moss has historical uses including stuffing for mattresses and
+  as lamp wicks due to its absorbent properties.
+
+metadata:
+  last_updated: "2025-01-20"
+  sources:
+    - "https://mossandstonegardens.com/blog/the-science-of-haircap-moss-habitat-characteristics-more/"
+    - "USDA Plants Database"
+  tags:
+    - "acrocarpous"
+    - "tall-growing"
+    - "bog-dwelling"
+    - "acidic-soil"
+    - "terrarium"
+    - "cold-tolerant"
