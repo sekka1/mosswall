@@ -182,6 +182,160 @@ Look for images in these elements within the main content area:
 </figure>
 ```
 
+### Handling Lazy-Loaded Images
+
+Many websites use lazy-loading to defer image loading until they're visible. These images often show SVG placeholders or low-resolution previews initially. To extract the real image URLs:
+
+#### Step 1: Check Data Attributes
+
+Lazy-loaded images store the real URL in data attributes. Check these in order:
+
+| Attribute | Usage |
+|-----------|-------|
+| `data-src` | Most common lazy-load attribute |
+| `data-lazy-src` | WordPress lazy loading |
+| `data-original` | Older lazy-load libraries |
+| `data-srcset` | Responsive lazy-loaded images |
+| `data-lazy-srcset` | WordPress responsive lazy loading |
+| `data-full-url` | Full resolution URL |
+| `data-large-file` | WordPress large image |
+| `data-medium-file` | WordPress medium image |
+
+**Example: Extracting from data attributes**
+```html
+<!-- What you see in the HTML -->
+<img src="data:image/svg+xml,..." 
+     data-src="https://example.com/real-image.jpg"
+     data-srcset="https://example.com/image-800.jpg 800w,
+                  https://example.com/image-1200.jpg 1200w"
+     alt="Moss wall installation">
+
+<!-- Extract: data-src or largest from data-srcset -->
+```
+
+#### Step 2: Check `<noscript>` Fallbacks
+
+Many lazy-load implementations include a `<noscript>` tag with the real image for users without JavaScript:
+
+```html
+<img src="placeholder.svg" data-src="real-image.jpg">
+<noscript>
+  <img src="https://example.com/real-image.jpg" alt="Moss wall">
+</noscript>
+```
+
+**Always check for `<noscript>` siblings** of lazy-loaded images.
+
+#### Step 3: Parse `srcset` for Best Quality
+
+When `srcset` or `data-srcset` is available, extract the highest resolution:
+
+```html
+<img srcset="image-400.jpg 400w,
+             image-800.jpg 800w,
+             image-1200.jpg 1200w"
+     sizes="(max-width: 600px) 400px, 800px"
+     src="image-800.jpg">
+```
+
+**Resolution priority:**
+1. Select the largest `w` (width) descriptor
+2. Or the highest `x` (pixel density) descriptor
+3. Fall back to the `src` attribute
+
+#### Step 4: Check `<picture>` Sources
+
+Modern responsive images use `<picture>` elements with multiple sources:
+
+```html
+<picture>
+  <source srcset="image.webp" type="image/webp">
+  <source srcset="image.jpg" type="image/jpeg">
+  <img src="fallback.jpg" alt="...">
+</picture>
+```
+
+**Prefer formats in this order:** WebP > JPEG > PNG (for photos)
+
+#### Step 5: Identify Placeholder Patterns
+
+Skip or replace these placeholder patterns:
+
+| Pattern | Description |
+|---------|-------------|
+| `data:image/svg+xml,...` | Inline SVG placeholder |
+| `data:image/gif;base64,R0lGOD...` | 1x1 transparent GIF |
+| `about:blank` | Empty placeholder |
+| URLs containing `placeholder` | Placeholder images |
+| URLs containing `lazy` or `loading` | Loading indicators |
+| Base64 strings < 1KB | Tiny placeholder images |
+
+#### Step 6: WordPress-Specific Handling
+
+WordPress sites often use this pattern:
+
+```html
+<img src="data:image/svg+xml,%3Csvg%20..."
+     data-lazy-src="https://example.com/wp-content/uploads/2026/01/moss.jpg"
+     data-lazy-srcset="https://example.com/.../moss-300x200.jpg 300w,
+                       https://example.com/.../moss-768x512.jpg 768w,
+                       https://example.com/.../moss-1024x683.jpg 1024w"
+     class="lazyload">
+```
+
+**WordPress URL pattern:** `/wp-content/uploads/YYYY/MM/filename.ext`
+
+Extract the largest size from `data-lazy-srcset` or use `data-lazy-src`.
+
+#### Step 7: JavaScript-Rendered Images (Advanced)
+
+For images that require JavaScript execution:
+
+1. **Check for JSON-LD data** - Some sites embed image URLs in structured data:
+   ```html
+   <script type="application/ld+json">
+   {
+     "@type": "Article",
+     "image": "https://example.com/article-image.jpg"
+   }
+   </script>
+   ```
+
+2. **Check Open Graph meta tags:**
+   ```html
+   <meta property="og:image" content="https://example.com/share-image.jpg">
+   ```
+
+3. **If images are truly JS-rendered**, note the limitation and suggest the user:
+   - Try the page's "Print" or "Reader" view
+   - Check if the site has an RSS feed with full images
+   - Use a headless browser tool if available
+
+### Lazy-Load Detection Summary
+
+```
+For each <img> in main content:
+  1. Is src a placeholder? (SVG data URI, tiny base64, blank)
+     → YES: Look for real URL in data attributes
+     → NO: Use src directly
+  
+  2. Check data-src, data-lazy-src, data-original
+     → Found: Use this URL
+  
+  3. Check data-srcset, data-lazy-srcset, srcset
+     → Found: Extract highest resolution URL
+  
+  4. Check sibling <noscript> tag
+     → Found: Extract img src from noscript
+  
+  5. Check <picture> parent for <source> elements
+     → Found: Use best format source
+  
+  6. Still no real URL?
+     → Check JSON-LD and og:image meta tags
+     → Note as "lazy-loaded, URL not extractable"
+```
+
 ### URL Resolution
 
 Convert relative URLs to absolute URLs before downloading:
@@ -369,3 +523,4 @@ Moss thrives in humidity between 40-60%...
 - **Image hotlink protection**: Some sites block direct image downloads
 - **Dynamic image URLs**: URLs with tokens/signatures may expire
 - **Large images**: Files over 10MB should be skipped to conserve storage
+- **Lazy-loaded images without data attributes**: Some implementations require JavaScript execution to reveal URLs (see "Handling Lazy-Loaded Images" for workarounds)
