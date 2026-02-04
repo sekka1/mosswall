@@ -336,6 +336,89 @@ For each <img> in main content:
      → Note as "lazy-loaded, URL not extractable"
 ```
 
+### Using the Playwright Script
+
+For pages with JavaScript-rendered lazy-loaded images that cannot be extracted via static HTML parsing, use the Playwright-based scraper script:
+
+#### Prerequisites
+
+Install Playwright in the project:
+
+```bash
+npm install playwright
+npx playwright install chromium
+```
+
+#### Usage
+
+```bash
+# Basic usage - scrapes URL and saves to timestamped directory
+npx ts-node .github/skills/web-content-scraper/scripts/scrape-lazy-images.ts <url>
+
+# Specify output directory
+npx ts-node .github/skills/web-content-scraper/scripts/scrape-lazy-images.ts <url> <output-dir>
+```
+
+**Examples:**
+
+```bash
+# Scrape a moss care guide
+npx ts-node .github/skills/web-content-scraper/scripts/scrape-lazy-images.ts \
+  https://mossandstonegardens.com/blog/how-to-care-for-moss/ \
+  ./data/scraped/moss-care
+
+# Scrape with default output location
+npx ts-node .github/skills/web-content-scraper/scripts/scrape-lazy-images.ts \
+  https://example.com/article-with-images
+```
+
+#### Output Structure
+
+The script creates the following output:
+
+```
+<output-dir>/
+├── content.md           # Extracted page content as markdown
+└── images/
+    ├── _attribution.yaml  # Image attribution manifest
+    ├── image-1.jpg
+    ├── image-2.png
+    └── ...
+```
+
+#### How It Works
+
+1. **Launches headless browser** - Uses Chromium via Playwright
+2. **Scrolls entire page** - Triggers lazy-load for all images
+3. **Extracts image URLs** - Checks `data-src`, `data-lazy-src`, `srcset`, and `<noscript>` fallbacks
+4. **Downloads images** - Saves to output directory with deduplication
+5. **Generates attribution** - Creates YAML manifest with source URLs and metadata
+6. **Extracts content** - Converts main content to clean markdown
+
+#### Script Options
+
+The script automatically handles:
+
+| Feature | Description |
+|---------|-------------|
+| **Scroll triggering** | Scrolls page in 500px increments to trigger lazy loading |
+| **Placeholder detection** | Skips SVG data URIs and tiny base64 placeholders |
+| **srcset parsing** | Extracts highest resolution from responsive images |
+| **noscript fallback** | Checks `<noscript>` tags for non-JS image URLs |
+| **URL resolution** | Converts relative URLs to absolute |
+| **Deduplication** | Avoids downloading the same image twice |
+| **Attribution** | Records source URL, alt text, caption, and dimensions |
+
+#### When to Use the Script
+
+| Scenario | Use Script? |
+|----------|-------------|
+| WordPress sites with `data-lazy-src` | ✅ Yes |
+| Images visible only after scroll | ✅ Yes |
+| SVG placeholder visible in `src` | ✅ Yes |
+| Regular `<img src="...">` tags | ❌ No - use `fetch_webpage` |
+| Images behind authentication | ❌ No - requires login handling |
+
 ### URL Resolution
 
 Convert relative URLs to absolute URLs before downloading:
