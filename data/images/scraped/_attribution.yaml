@@ -3,4 +3,61 @@
 # Tracks source URLs and copyright information for all scraped images
 # See: .github/skills/web-content-scraper/SKILL.md for format details
 
-images: []
+images:
+  # Images from https://mossandstonegardens.com/blog/how-to-care-for-moss/
+  # Note: These images use lazy-loading and require JavaScript to resolve actual URLs
+  # The following are documented for future manual retrieval
+  - filename: "pending-garden-with-sheet-moss.jpg"
+    source_page: "https://mossandstonegardens.com/blog/how-to-care-for-moss/"
+    source_page_title: "How To Care For Moss | Basics & Advanced Moss Care Techniques"
+    original_url: null  # Lazy-loaded, requires JavaScript
+    alt_text: "A garden with sheet moss"
+    caption: "A garden with sheet moss"
+    detected_license: null
+    attribution_text: "Image from mossandstonegardens.com"
+    downloaded_at: null
+    status: "pending-lazy-load"
+
+  - filename: "pending-soil-preparation-japanese-garden.jpg"
+    source_page: "https://mossandstonegardens.com/blog/how-to-care-for-moss/"
+    source_page_title: "How To Care For Moss | Basics & Advanced Moss Care Techniques"
+    original_url: null
+    alt_text: "Soil preperation Japanese moss garden"
+    caption: "Soil preparation of a Japanese moss garden"
+    detected_license: null
+    attribution_text: "Image from mossandstonegardens.com"
+    downloaded_at: null
+    status: "pending-lazy-load"
+
+  - filename: "pending-moss-fragment.jpg"
+    source_page: "https://mossandstonegardens.com/blog/how-to-care-for-moss/"
+    source_page_title: "How To Care For Moss | Basics & Advanced Moss Care Techniques"
+    original_url: null
+    alt_text: "moss fragment"
+    caption: "A fragment of moss"
+    detected_license: null
+    attribution_text: "Image from mossandstonegardens.com"
+    downloaded_at: null
+    status: "pending-lazy-load"
+
+  - filename: "pending-moss-terrarium.jpg"
+    source_page: "https://mossandstonegardens.com/blog/how-to-care-for-moss/"
+    source_page_title: "How To Care For Moss | Basics & Advanced Moss Care Techniques"
+    original_url: null
+    alt_text: "tall-moss-terrarium"
+    caption: "A moss terrarium outdoors"
+    detected_license: null
+    attribution_text: "Image from mossandstonegardens.com"
+    downloaded_at: null
+    status: "pending-lazy-load"
+
+  - filename: "pending-moss-turning-black.jpg"
+    source_page: "https://mossandstonegardens.com/blog/how-to-care-for-moss/"
+    source_page_title: "How To Care For Moss | Basics & Advanced Moss Care Techniques"
+    original_url: null
+    alt_text: "moss turning black"
+    caption: null
+    detected_license: null
+    attribution_text: "Image from mossandstonegardens.com"
+    downloaded_at: null
+    status: "pending-lazy-load"
