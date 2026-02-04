@@ -1,0 +1,76 @@
+# Moss Wall Glossary
+# Common terms and definitions related to moss walls
+
+terms:
+  - term: "Acrocarpous Moss"
+    definition: "Moss that grows upright in clumps or cushions, as opposed to spreading horizontally. Examples include mood moss and cushion moss."
+    related: ["Pleurocarpous Moss", "Mood Moss"]
+
+  - term: "Bryophyte"
+    definition: "The scientific classification that includes mosses, liverworts, and hornworts. Mosses are non-vascular plants that absorb water through their leaves."
+    related: ["Moss", "Non-vascular"]
+
+  - term: "Desiccation"
+    definition: "The process of drying out. Moss can tolerate periods of desiccation and revive when rehydrated, though prolonged dry periods can cause permanent damage."
+    related: ["Dormancy", "Rehydration"]
+
+  - term: "Dormancy"
+    definition: "A state of suspended growth that moss enters when conditions are unfavorable (too dry, too cold). Dormant moss may appear brown but can often recover."
+    related: ["Desiccation", "Revival"]
+
+  - term: "Humidity"
+    definition: "The amount of water vapor in the air, measured as a percentage. Most live moss walls thrive at 50-80% humidity."
+    related: ["Misting", "Hygrometer"]
+
+  - term: "Hygrometer"
+    definition: "A device used to measure humidity levels in the air. Essential for monitoring moss wall environments."
+    related: ["Humidity"]
+
+  - term: "Live Moss"
+    definition: "Moss that is actively growing and requires ongoing care including watering, proper lighting, and humidity. Contrasts with preserved moss."
+    related: ["Preserved Moss", "Sheet Moss"]
+
+  - term: "Misting"
+    definition: "The process of spraying fine water droplets onto moss to maintain hydration. The primary watering method for moss walls."
+    related: ["Humidity", "Watering"]
+
+  - term: "Mood Moss"
+    definition: "Dicranum scoparium, a clump-forming moss with a fuzzy, mounded appearance. Popular for adding texture and dimension to moss walls."
+    related: ["Acrocarpous Moss", "Sheet Moss"]
+
+  - term: "Pleurocarpous Moss"
+    definition: "Moss that grows horizontally in spreading carpets or sheets. Sheet moss and fern moss are pleurocarpous."
+    related: ["Acrocarpous Moss", "Sheet Moss"]
+
+  - term: "Preserved Moss"
+    definition: "Moss that has been treated with glycerin or other preservatives to maintain its appearance without watering. Not alive but retains color and texture."
+    related: ["Live Moss", "Reindeer Moss"]
+
+  - term: "Reindeer Moss"
+    definition: "Cladonia rangiferina, technically a lichen rather than true moss. Often preserved and dyed for decorative moss walls. Requires no maintenance when preserved."
+    related: ["Preserved Moss", "Lichen"]
+
+  - term: "Sheet Moss"
+    definition: "Hypnum species, a flat-growing moss that spreads in carpet-like sheets. One of the most popular choices for moss walls due to its lush appearance."
+    related: ["Pleurocarpous Moss", "Live Moss"]
+
+  - term: "Sphagnum Moss"
+    definition: "A genus of moss often used as a substrate or growing medium for other mosses. Excellent water retention makes it ideal for moss wall backing."
+    related: ["Substrate", "Live Moss"]
+
+  - term: "Substrate"
+    definition: "The underlying material or surface on which moss is attached and grows. Common substrates include sphagnum moss, cork, and mesh systems."
+    related: ["Sphagnum Moss", "Installation"]
+
+  - term: "Terrarium"
+    definition: "An enclosed or semi-enclosed glass container used to grow plants, including moss. The enclosure helps maintain humidity levels."
+    related: ["Humidity", "Live Moss"]
+
+metadata:
+  last_updated: "2026-02-03"
+  total_terms: 17
+  categories:
+    - "Moss Types"
+    - "Care Terms"
+    - "Equipment"
+    - "Scientific Terms"

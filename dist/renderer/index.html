@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';">
+  <title>Moss Wall AI Assistant</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-content">
+        <span class="header-icon">🌿</span>
+        <h1>Moss Wall AI Assistant</h1>
+      </div>
+    </header>
+
+    <!-- Chat Messages Area -->
+    <main class="chat-container" id="chatContainer">
+      <div class="messages" id="messages">
+        <!-- Welcome message -->
+        <div class="message assistant">
+          <div class="message-avatar">🤖</div>
+          <div class="message-content">
+            <div class="message-text">
+              <p>Welcome to the <strong>Moss Wall AI Assistant</strong>! 👋</p>
+              <p>I'm here to help you with all things live moss walls:</p>
+              <ul>
+                <li>🌱 Moss types and species selection</li>
+                <li>💧 Watering and humidity care</li>
+                <li>☀️ Lighting and placement tips</li>
+                <li>🔧 Troubleshooting browning or yellowing</li>
+                <li>🛠️ DIY installation and frame building</li>
+              </ul>
+              <p>What would you like to know?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Input Area -->
+    <footer class="input-container">
+      <form id="chatForm" class="chat-form">
+        <div class="input-wrapper">
+          <textarea 
+            id="messageInput" 
+            placeholder="Ask me anything about moss walls..."
+            rows="1"
+            maxlength="10000"
+          ></textarea>
+          <button type="submit" id="sendButton" title="Send message">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+            </svg>
+          </button>
+        </div>
+        <div class="input-hint">
+          Press <kbd>Enter</kbd> to send, <kbd>Shift+Enter</kbd> for new line
+        </div>
+      </form>
+    </footer>
+  </div>
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>

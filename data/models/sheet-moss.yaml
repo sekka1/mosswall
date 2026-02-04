@@ -1,0 +1,53 @@
+# Sheet Moss (Hypnum) Specification
+name: "Sheet Moss"
+scientific_name: "Hypnum curvifolium"
+common_names:
+  - "Sheet Moss"
+  - "Carpet Moss"
+  - "Fern Moss"
+category: "Live Moss"
+
+characteristics:
+  growth_pattern: "Low, spreading carpet"
+  texture: "Soft, feathery"
+  color: "Bright to deep green"
+  height: "1-3 inches"
+  spread: "Forms dense mats"
+
+ideal_conditions:
+  humidity: "60-80%"
+  light: "Low to moderate indirect light"
+  temperature: "50-75°F (10-24°C)"
+  water: "Consistently moist, not waterlogged"
+  air_circulation: "Gentle airflow preferred"
+
+best_for:
+  - "Indoor moss walls"
+  - "Shaded outdoor installations"
+  - "Terrariums"
+  - "Living art pieces"
+
+care_level: "Easy to Moderate"
+
+pros:
+  - "Creates lush, carpet-like appearance"
+  - "Relatively easy to maintain"
+  - "Adapts well to indoor conditions"
+  - "Good for beginners"
+
+cons:
+  - "Requires consistent humidity"
+  - "Can brown in dry conditions"
+  - "Needs indirect light only"
+
+notes: |
+  Sheet moss is one of the most popular choices for moss walls due to its 
+  lush appearance and relatively easy care requirements. It spreads 
+  horizontally, creating a beautiful carpet effect. Best used in areas 
+  where you can maintain consistent humidity levels.
+
+metadata:
+  last_updated: "2026-02-03"
+  sources:
+    - "Moss Acres"
+    - "Mountain Moss"
